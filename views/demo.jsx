@@ -22,6 +22,8 @@ export class Demo extends Component {
   constructor(props) {
     super();
     this.state = {
+      languageCustomizationId: 'a3284577-ea4d-4e70-947c-cec551ab691c',
+      acousticCustomizationId: '0b4db329-b43f-4c7c-8c99-facbe874eb73',
       model: 'en-US_BroadbandModel',
       rawMessages: [],
       formattedMessages: [],
@@ -104,6 +106,8 @@ export class Demo extends Component {
     const keywords = this.getKeywordsArrUnique();
     return Object.assign({
       // formats phone numbers, currency, etc. (server-side)
+      acoustic_customization_id: this.state.acousticCustomizationId,
+      language_customization_id: this.state.languageCustomizationId,
       access_token: this.state.accessToken,
       token: this.state.token,
       smart_formatting: true,
@@ -220,6 +224,7 @@ export class Demo extends Component {
     //  * a few other things for backwards compatibility and sane defaults
     // In addition to this, it passes other service-level options along to the RecognizeStream
     // that manages the actual WebSocket connection.
+      console.log("get reg"+this.getRecognizeOptions)
     this.handleStream(recognizeFile(this.getRecognizeOptions({
       file,
       play: true, // play the audio out loud

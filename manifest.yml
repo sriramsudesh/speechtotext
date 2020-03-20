@@ -1,6 +1,6 @@
 ---
 applications:
-- name: speech-to-text-demo
+- name: tradefloor-analysis-demo
   path: .
   command: npm start
   memory: 512M

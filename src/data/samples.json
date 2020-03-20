@@ -38,14 +38,27 @@
   "en-US_BroadbandModel": [
     {
       "filename": "en-US_Broadband_sample1.wav",
-      "keywords": "IBM, admired, AI, transformations, cognitive",
+      "keywords": "buy, sell, company , euro , us dollar, rate ",
       "speaker_labels": true
     },
     {
       "filename": "en-US_Broadband_sample2.wav",
-      "keywords": "Artificial Intelligence, data, predict, learn",
+      "keywords": "buy, sell, company , euro , us dollar, rate ",
+      "speaker_labels": true
+    },
+    {
+      "filename": "trade_floor_analysis_2",
+      "keywords": "buy, sell, company , euro , us dollar, rate ",
+      "speaker_labels": true
+    },
+    {
+      "filename": "trade_floor_analysis_1",
+      "keywords": "buy, sell, company , euro , us dollar, rate ",
       "speaker_labels": true
     }
+    
+
+
   ],
   "en-US_ShortForm_NarrowbandModel": [
     {
@@ -496,5 +509,7 @@
       "keywords": "fatura, bolette, pagamento",
       "speaker_labels": false
     }
+
+
   ]
 }
