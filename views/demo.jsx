@@ -22,8 +22,8 @@ export class Demo extends Component {
   constructor(props) {
     super();
     this.state = {
-      languageCustomizationId: 'a3284577-ea4d-4e70-947c-cec551ab691c',
-      acousticCustomizationId: '0b4db329-b43f-4c7c-8c99-facbe874eb73',
+      languageCustomizationId: 'c25a7967-46d2-4ea4-b0f5-6da3c4d911f5',
+      acousticCustomizationId: 'da83ca4e-19a6-45ba-a3c7-5a44b687352b',
       model: 'en-US_BroadbandModel',
       rawMessages: [],
       formattedMessages: [],
